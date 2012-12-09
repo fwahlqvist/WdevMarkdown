@@ -1,0 +1,30 @@
+{
+    "name": "fwahlqvist/wdev-markdown",
+    "description": "A ZF2 module to enable use of markdown via composer instalation or a git clone",
+    "keywords": [
+        "fwahlqvist",
+        "zf2",
+        "Markdown",
+        "Makrdown extra"
+    ],
+    "authors": [
+        {
+            "name": "Fredrik Wahlqvist",
+            "email": "fwahlqvist@gmail.com",
+            "homepage": "http://www.wahlqvist.co.uk",
+            "role": "Developer"
+        },
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "dflydev/markdown": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "WdevMarkdown": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
