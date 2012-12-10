@@ -1,6 +1,6 @@
 {
     "name": "fwahlqvist/wdev-markdown",
-    "description": "A ZF2 module to enable use of markdown via composer instalation or a git clone",
+    "description": "A ZF2 module to enable use of markdown via composer installation or a git clone",
     "keywords": [
         "fwahlqvist",
         "zf2",
