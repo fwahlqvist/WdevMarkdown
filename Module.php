@@ -25,7 +25,7 @@ class Module
     {
         return array(
             'factories' => array(
-                'Markdown' => function($sm) {
+                'WdevMarkdown' => function($sm) {
                     $locator = $sm->getServiceLocator();
                     return new Markdown($locator->get('Request'));
                 },

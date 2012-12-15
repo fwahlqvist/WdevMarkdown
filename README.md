@@ -7,10 +7,12 @@ Add <pre>"fwahlqvist/wdev-markdown": "dev-master"</pre> to your composer and run
 
 Enable WdevMarkdown in your application.config.php
 
-In your view scripts add <pre>$this->Markdown('Your Content');</pre>
+In your view scripts add <pre>$thisWdevMarkdown('Your Content');</pre>
 
 
 ##TODO
 This module is currently pre configured to use the <a href="http://michelf.ca/projects/php-markdown/extra/">Markdown Extra</a> and this might be configurable in the future
+
 Add test for phpunit
+
 Better documentation 
