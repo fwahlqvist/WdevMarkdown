@@ -7,7 +7,7 @@ Add <pre>"fwahlqvist/wdev-markdown": "dev-master"</pre> to your composer and run
 
 Enable WdevMarkdown in your application.config.php
 
-In your view scripts add <pre>$thisWdevMarkdown('Your Content');</pre>
+In your view scripts add <pre>$this->WdevMarkdown('Your Content');</pre>
 
 
 ##TODO
